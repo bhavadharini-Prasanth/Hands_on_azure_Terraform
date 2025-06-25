@@ -8,7 +8,7 @@ terraform {
 }
 provider "azurerm" {
     features {}
-    skip_provider_registration = true
+    
 }
 resource "azurerm_resource_group" "rg" {
     name = "813-5f7dff99-hands-on-with-terraform-on-azure"
